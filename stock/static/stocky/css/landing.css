@@ -1,0 +1,15 @@
+#principal{
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#tittle{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#clave{
+    width: 20%;
+}

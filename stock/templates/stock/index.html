@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'stocky/css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'stocky/css/landing.css' %}" />
+    <link rel="shortcut icon" href="{% static 'stocky/img/logo.jpg' %}" type="image/x-icon" />
+    <title>Stocky</title>
+</head>
+<body id="principal">
+    <div style="display: flex; justify-content:  space-evenly; align-items: center; flex-direction: column; padding: 2%; height: 50%;">
+        <h1 class="text-center" id="tittle">Bienvenido</h1>        
+        <img src="{% static 'stocky/img/logo.jpg' %}" width="300px" height="200px"><br><br>
+        <input type="number" placeholder="Ingrese su clave" class="form-control" id="clave">
+        <div style="display: flex; justify-content: space-evenly; align-items: center; flex-direction: column; padding: 2%; height: 200px;">
+            <button class="btn btn-danger" style="width: 100%;">Continuar</button>
+            <button class="btn btn-primary">Generar clave</button>
+            <button class="btn btn-success">Movimientos</button>
+
+        </div>
+    </div>
+    
+</body>
+</html>
